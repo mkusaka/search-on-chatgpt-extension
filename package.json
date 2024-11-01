@@ -1,0 +1,11 @@
+{
+  "name": "search-on-chatgpt-extension",
+  "devDependencies": {
+    "@types/chrome": "^0.0.270",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "package": "rm -f pacakge.zip && zip -r package.zip . -x '.git/**' './node_modules/**' '.idea/**' 'yarn.lock' 'package.json' '.gitignore'"
+  }
+}
