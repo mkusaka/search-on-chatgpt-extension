@@ -6,6 +6,7 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "package": "rm -f pacakge.zip && zip -r package.zip . -x '.git/**' './node_modules/**' '.idea/**' 'yarn.lock' 'package.json' '.gitignore'"
-  }
+    "package": "rm -f pacakge.zip && zip -r package.zip . -x '.git/**' './node_modules/**' '.idea/**' 'pnpm-lock.yaml' 'pnpm-workspace.yaml' 'package.json' '.gitignore'"
+  },
+  "packageManager": "pnpm@11.5.2"
 }
